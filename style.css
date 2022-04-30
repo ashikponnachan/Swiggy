@@ -1,0 +1,421 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex ;
+    flex-direction: column;
+    
+}
+.first{
+    height: 431px;
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.first-left{
+    width: 59%;
+    height: 431px;
+    display: flex;
+     
+    
+    
+}
+
+.first-right{
+    width: 41%;
+    height: 431px;
+    display: flex;
+    
+    
+    
+}
+.image{
+    width: 100%;
+    height: 431px;
+  
+}
+.first-left{
+    height: 431px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.logoin{
+    height: 30%;
+    
+    
+    display: flex;
+    flex-direction: row;
+   
+}
+.logo{
+    
+    display: flex;
+    
+    flex: 1;
+}
+.logoimage{
+    width: 195px;
+    height: 74px;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+.login{
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    margin-right: 55px;
+}
+.btn-login{
+    background-color: white;
+    color: black;
+    border-color: white;
+    width: 90px;
+    height: 33px;
+    margin-top: 50px;
+    border-style: none;
+    
+}
+.btn-signup{
+    background-color:black;
+    color: white;
+    width: 90px;
+    height: 33px;
+    margin-top: 50px;
+    border-style: none;
+}    
+    
+
+.ad{
+    height: 25%; 
+    line-height: 11px;  
+}
+.adtext{
+    padding-left: 98px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.adnote{
+    padding-left: 98px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    color:#686b78;
+    font-weight:10px;
+    
+}
+.locating{
+    height: 105px;
+    
+}
+.cities{
+    height: 105px;
+    
+}
+.second{
+    height: 350px;
+    background-color: #2b1e16;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+
+
+}
+.ima1{
+    width: 100px;
+    
+}
+.ima2{
+    width: 100px;
+}
+.ima3{
+    width: 100px;
+    padding-top: 35px;
+    
+}
+.col1{
+    
+    text-align: center ;
+    flex: 1;
+    line-height: 0%;
+    flex-direction: column;
+   
+}
+.ima1note{
+    font-size: 14px;
+}
+.col2{
+    
+    text-align: center ;
+    flex: 1;
+    line-height: 0%;
+}
+.col3{
+    
+    text-align: center ;
+    flex: 1;
+    line-height: 0%;
+}
+.text{
+    padding-top: 50px;
+}
+.locating{
+    display: flex;
+    flex-direction: row;
+}
+.searchbox{
+    outline-color: #fc8019;
+    padding-right: 245px;
+    margin-left: 98px;
+    height: 35px;
+   
+}
+.searchbutton{
+    height: 41px;
+    background-color: #fc8019;
+    color: white;
+    border-style: none;
+    justify-content: flex-end;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+
+}
+.popcit{
+    padding-left: 94px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    color: #93959f;
+    padding-bottom: 10px;
+}
+.subdiv{
+    
+    display: flex;
+    flex-direction: row; 
+    padding-left: 94px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+    
+}
+
+
+.cityname1{
+    color: #686b78;
+    font-weight:10 px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname2{
+    color: #93959f;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname3{
+    color: #686b78;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname4{
+    color: #93959f;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname5{
+    color: #686b78;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname6{
+    color: #93959f;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname7{
+    color: #686b78;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname8{
+    color: #93959f;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname9{
+    color: #686b78;
+    font-weight: 10px;
+    font-size: 13px;
+    padding-inline-end: 7px;
+}
+.cityname10{
+    color: #93959f;
+    font-weight: 10px;
+    font-size: 13px;
+    
+}
+.third{
+    height: 446px;
+    
+    display: flex;
+    flex-direction: row;
+    
+    background-color: white;
+    
+}
+.thirdright{
+    width: 64%;
+    height: 100%;
+    
+    display: flex;
+    
+    
+}
+.thirdleft{
+    width: 36%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mobima1{
+    padding-left: 26px;
+    
+}
+
+.mobima2{
+    padding-left: 0px;
+    
+    
+}
+.appad{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.applink{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.appadtext{
+    color: black;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    padding-left: 25px;
+    padding-top: 100px;
+    
+}
+.appadtextnote{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    padding-left: 25px;
+    color: #7e808c;
+    margin-top: 0px;
+    font-weight: 10px;
+}
+.android{
+    width: 126px;
+    height: 41px;
+    padding-left: 25px;
+}
+.apple{
+    width: 126px;
+    height: 41px;
+    padding-left: 25px;
+}
+.fourth{
+    height: 450px;
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.company{
+    width: 26.6%;
+    height: 100%;
+    padding-top: 69px;
+    
+    
+    
+}
+.contact{
+    width: 26.6%;
+    height: 100%;
+    padding-top: 69px;
+    
+}
+.legal{
+    width: 26.6%;
+    height: 100%;
+    padding-top: 69px;
+    
+}
+h4{
+    padding-left: 40px;
+    font-weight: lighter;
+}
+.he{
+    color: gray;
+    
+}
+.animlink a :hover{
+cursor: pointer;
+transform: scale(1.03);
+transition: .5s;
+}
+.animlink{
+    display: flex;
+    flex-direction: column;
+}
+.animage1{
+    padding-top: 90px;
+    
+}
+.animage2{
+    padding-top: 26px;
+}
+.fifth{
+    height: 10px;
+    background-color: black;
+    color: white;
+}
+hr{
+    margin-left: 41px;
+    margin-right: 41px;
+    background-color: #4d4d4d;
+    opacity: 0.6;
+    border: none;
+    height: 1px;
+}
+.sixth{
+    height: 450px;
+    
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    background-color: black;
+    color: white;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+
+}
+.btn-login, .btn-signup:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
